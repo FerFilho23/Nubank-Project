@@ -1,0 +1,26 @@
+a{
+  @include typeface-2(p2, desktop);
+  text-decoration: none;
+  color: $black-normal;
+  transition: 0.5 ease;
+
+  &:hover{
+    opacity: 0.9;
+  }
+}
+
+.btn{
+  border-radius: 16px;
+  padding: 12px 32px;
+  
+  color: $white-light;
+  background: linear-gradient(220.94deg, $secondary-normal 14.43%, $primary-normal 85.28%);
+  box-shadow: $shadow-btn-normal;
+  
+  transition: .3s ease;
+  
+  &:hover{
+    transform: scale(1.02);
+    box-shadow: $shadow-btn-hover;
+  }
+}

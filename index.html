@@ -12,69 +12,72 @@
   <body>
     
     <!-- ========== HEADER ========== -->
-    <header>
+    <header id="header">
       <!-- ========== NAVBAR MOBILE ========== -->
       <nav class="navbar-mobile">
-        <div class="hamburgr" id="hamburger"></div>
+        <div class="hamburger" id="hamburger"></div>
         <div class="logo"></div>
         <a href="">Login</a>
       </nav>
 
-      <!-- ========== MENU MOBILE ========== -->
-      <nav class="menu-mobile">
-        <ul class="nav-list-mobile">
-          <li><a href="" class="nav-link-mobile">Nubank</a></li>
-          <li><a href="" class="nav-link-mobile">Conta Digital</a></li>
-          <li><a href="" class="nav-link-mobile">Pra Você</a></li>
-          <li><a href="" class="nav-link-mobile">Quero ser Nubank</a></li>
-          <li><a href="" class="nav-link-mobile">Redes Sociais</a></li>
-        </ul>
-      </nav>
-
       <!-- ========== NAVBAR DESKTOP ========== -->
       <nav class="navbar-desktop">
-        <div class="navbar-desktop-item1">
+        <div class="navbar-desktop-item-1">
           <div class="logo"></div>
 
           <ul class="menu-desktop">
-            <li class="menu-desktop-item">
-              <a href="" class="nav-link-desktop">Nubank</a>
+            <li class="menu-desktop-item" id="menu-desktop-item-1">
+              <a href="" class="menu-desktop-link">Sobre Nós</a>
 
-              <ul class="dropdown-menu">
-                <li class="dropdown-item"><a href="">O Nu</a></li>
-                <li class="dropdown-item"><a href="">Carreiras</a></li>
-                <li class="dropdown-item"><a href="">Imprensa</a></li>
+              <ul class="dropdown-menu" id="dropdown-menu-1">
+                <li class="dropdown-item"><a href="" class="dropdown-link">O Nu</a></li>
+                <li class="dropdown-item"><a href="" class="dropdown-link">Carreiras</a></li>
+                <li class="dropdown-item"><a href="" class="dropdown-link">Imprensa</a></li>
               </ul>
             </li>
 
-            <li class="menu-desktop-item">
-              <a href="" class="nav-link-desktop">Conta Digital</a>
+            <li class="menu-desktop-item" id="menu-desktop-item-2">
+              <a href="" class="menu-desktop-link">Conta Digital</a>
 
-              <ul class="dropdown-menu">
-                <li class="dropdown-item"><a href="">Crie Sua Conta</a></li>
-                <li class="dropdown-item"><a href="">Transferências</a></li>
-                <li class="dropdown-item"><a href="">Rendimentos</a></li>
+              <ul class="dropdown-menu" id="dropdown-menu-2">
+                <li class="dropdown-item"><a href="" class="dropdown-link">Crie sua conta</a></li>
+                <li class="dropdown-item"><a href="" class="dropdown-link">Transferências</a></li>
+                <li class="dropdown-item"><a href="" class="dropdown-link">Rendimentos</a></li>
               </ul>
             </li>
 
-            <li class="menu-desktop-item">
-              <a href="" class="nav-link-desktop">Pra Você</a>
+            <li class="menu-desktop-item" id="menu-desktop-item-3">
+              <a href="" class="menu-desktop-link">Pra Você</a>
 
-              <ul class="dropdown-menu">
-                <li class="dropdown-item"><a href="">Comunidade</a></li>
-                <li class="dropdown-item"><a href="">Rewards</a></li>
-                <li class="dropdown-item"><a href="">Novidades</a></li>
+              <ul class="dropdown-menu" id="dropdown-menu-3">
+                <li class="dropdown-item"><a href="" class="dropdown-link">Comunidade</a></li>
+                <li class="dropdown-item"><a href="" class="dropdown-link">Rewards</a></li>
+                <li class="dropdown-item"><a href="" class="dropdown-link">Novidades</a></li>
               </ul>
             </li>
           </ul>
         </div>
 
-        <div class="navbar-desktop-item2">
+        <div class="navbar-desktop-item-2">
           <a href="" class="btn">Quero ser Nubank</a>
           <a href="">Login</a>
         </div>
       </nav>
-    </header>
+      
+      <!-- ========== MENU MOBILE ========== -->
+      <nav class="menu-mobile" id="menu-mobile">
+        <ul class="menu-mobile-list">
+          <li><a href="" class="menu-mobile-link">Nubank</a></li>
+          <li><a href="" class="menu-mobile-link">Conta Digital</a></li>
+          <li><a href="" class="menu-mobile-link">Pra Você</a></li>
+          <li><a href="" class="menu-mobile-link">Quero ser Nubank</a></li>
+          <li><a href="" class="menu-mobile-link">Redes Sociais</a></li>
+        </ul>
+      </nav>
 
+    </header>
+    
+    <!-- ========== JS ========== -->
+    <script src="./js/app.js"></script>
   </body>
 </html>
